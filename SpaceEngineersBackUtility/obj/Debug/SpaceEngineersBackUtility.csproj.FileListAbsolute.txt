@@ -1,0 +1,9 @@
+c:\users\zachmilo\documents\visual studio 2013\Projects\SpaceEngineersBackUtility\SpaceEngineersBackUtility\bin\Debug\SpaceEngineersBackUtility.exe.config
+c:\users\zachmilo\documents\visual studio 2013\Projects\SpaceEngineersBackUtility\SpaceEngineersBackUtility\bin\Debug\SpaceEngineersBackUtility.exe
+c:\users\zachmilo\documents\visual studio 2013\Projects\SpaceEngineersBackUtility\SpaceEngineersBackUtility\bin\Debug\SpaceEngineersBackUtility.pdb
+c:\users\zachmilo\documents\visual studio 2013\Projects\SpaceEngineersBackUtility\SpaceEngineersBackUtility\obj\Debug\SpaceEngineersBackUtility.csprojResolveAssemblyReference.cache
+c:\users\zachmilo\documents\visual studio 2013\Projects\SpaceEngineersBackUtility\SpaceEngineersBackUtility\obj\Debug\SpaceEngineersBackUtility.Form1.resources
+c:\users\zachmilo\documents\visual studio 2013\Projects\SpaceEngineersBackUtility\SpaceEngineersBackUtility\obj\Debug\SpaceEngineersBackUtility.Properties.Resources.resources
+c:\users\zachmilo\documents\visual studio 2013\Projects\SpaceEngineersBackUtility\SpaceEngineersBackUtility\obj\Debug\SpaceEngineersBackUtility.csproj.GenerateResource.Cache
+c:\users\zachmilo\documents\visual studio 2013\Projects\SpaceEngineersBackUtility\SpaceEngineersBackUtility\obj\Debug\SpaceEngineersBackUtility.exe
+c:\users\zachmilo\documents\visual studio 2013\Projects\SpaceEngineersBackUtility\SpaceEngineersBackUtility\obj\Debug\SpaceEngineersBackUtility.pdb
