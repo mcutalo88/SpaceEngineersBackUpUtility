@@ -7,3 +7,6 @@ c:\users\zachmilo\documents\visual studio 2013\Projects\SpaceEngineersBackUtilit
 c:\users\zachmilo\documents\visual studio 2013\Projects\SpaceEngineersBackUtility\SpaceEngineersBackUtility\obj\Debug\SpaceEngineersBackUtility.csproj.GenerateResource.Cache
 c:\users\zachmilo\documents\visual studio 2013\Projects\SpaceEngineersBackUtility\SpaceEngineersBackUtility\obj\Debug\SpaceEngineersBackUtility.exe
 c:\users\zachmilo\documents\visual studio 2013\Projects\SpaceEngineersBackUtility\SpaceEngineersBackUtility\obj\Debug\SpaceEngineersBackUtility.pdb
+C:\Users\mcutalo88\Desktop\SpaceEngineersBackUtility\SpaceEngineersBackUtility\bin\Debug\SpaceEngineersBackUtility.exe.config
+C:\Users\mcutalo88\Desktop\SpaceEngineersBackUtility\SpaceEngineersBackUtility\obj\Debug\SpaceEngineersBackUtility.exe
+C:\Users\mcutalo88\Desktop\SpaceEngineersBackUtility\SpaceEngineersBackUtility\obj\Debug\SpaceEngineersBackUtility.pdb
