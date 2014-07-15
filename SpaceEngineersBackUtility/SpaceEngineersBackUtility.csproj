@@ -72,6 +72,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>space_eng_util_dbDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="Transporter.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
