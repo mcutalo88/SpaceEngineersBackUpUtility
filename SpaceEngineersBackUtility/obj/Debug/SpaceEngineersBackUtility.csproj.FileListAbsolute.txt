@@ -21,3 +21,6 @@ C:\Users\mcutalo88\Documents\GitHub\SpaceEngineersBackUtility\SpaceEngineersBack
 C:\Users\mcutalo88\Documents\GitHub\SpaceEngineersBackUtility\SpaceEngineersBackUtility\obj\Debug\SpaceEngineersBackUtility.Form1.resources
 C:\Users\mcutalo88\Documents\GitHub\SpaceEngineersBackUtility\SpaceEngineersBackUtility\obj\Debug\SpaceEngineersBackUtility.Properties.Resources.resources
 C:\Users\mcutalo88\Documents\GitHub\SpaceEngineersBackUtility\SpaceEngineersBackUtility\obj\Debug\SpaceEngineersBackUtility.csproj.GenerateResource.Cache
+C:\Users\zachmilo\Documents\Visual Studio 2013\Projects\SpaceEngineersBackUpUtility\SpaceEngineersBackUtility\bin\Debug\SpaceEngineersBackUtility.exe.config
+C:\Users\zachmilo\Documents\Visual Studio 2013\Projects\SpaceEngineersBackUpUtility\SpaceEngineersBackUtility\obj\Debug\SpaceEngineersBackUtility.exe
+C:\Users\zachmilo\Documents\Visual Studio 2013\Projects\SpaceEngineersBackUpUtility\SpaceEngineersBackUtility\obj\Debug\SpaceEngineersBackUtility.pdb
