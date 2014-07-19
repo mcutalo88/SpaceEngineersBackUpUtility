@@ -74,21 +74,22 @@ namespace SpaceEngineersBackUtility
            FileAttributes attr; 
            String [] hold = Directory.GetFileSystemEntries(DEFAULT_PATH);
            hold= Directory.GetFileSystemEntries(hold[0]);
-           
-          
-           
-           
+         
            for (int content = 0; content < hold.Length; content++ ){ // iterates through folders 
                 attr = File.GetAttributes(hold[content]); // gets path of file or folder
                 if ((attr & FileAttributes.Directory) == FileAttributes.Directory){ // checks to see if it's a dir 
+                    
                     folderName = new DirectoryInfo(hold[content]);
                     Directory.CreateDirectory(destination + "\\"+folderName.Name); 
-                    foreach (string iterFile in Directory.GetFileSystemEntries(hold[content])){ // iterates through the files in a folder                      
-                        File.Copy(iterFile, destination + "\\" + folderName.Name);
-                }
-            }
-                else{
-                    File.Copy(hold[content],destination); 
+
+                    foreach (string iterFile in Directory.GetFileSystemEntries(hold[content])){ // iterates through the files in a folder 
+                        System.IO.FileInfo fi = new System.IO.FileInfo(iterFile);
+                        File.Copy(iterFile, destination + "\\"+folderName.Name +"\\"+fi.Name);
+                    }
+
+                }else{
+                    System.IO.FileInfo fi = new System.IO.FileInfo(hold[content]);
+                    File.Copy(hold[content],destination+"\\"+fi.Name); 
                 }
            }
         }
