@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using Microsoft.VisualBasic;  
 using System.IO;
 
 namespace SpaceEngineersBackUtility
@@ -49,6 +49,7 @@ namespace SpaceEngineersBackUtility
                 if (isLocal)
                 {
                     if (isDefaultPath)
+                        
                         File.Copy(DEFAULT_PATH, destination);                      
                     else
                         //Err checking
@@ -57,6 +58,7 @@ namespace SpaceEngineersBackUtility
                 else
                 {
                     if (isDafaultServer)
+                        
                         File.Copy(DEFAULT_SERVER_PATH, destination);
                     else
                         //Err Checking                        
@@ -66,6 +68,29 @@ namespace SpaceEngineersBackUtility
             catch (FileNotFoundException ex){
                 Console.Write(ex);
             }
+        }
+        public void doBackUp(){
+           DirectoryInfo folderName;
+           FileAttributes attr; 
+           String [] hold = Directory.GetFileSystemEntries(DEFAULT_PATH);
+           hold= Directory.GetFileSystemEntries(hold[0]);
+           
+          
+           
+           
+           for (int content = 0; content < hold.Length; content++ ){ // iterates through folders 
+                attr = File.GetAttributes(hold[content]); // gets path of file or folder
+                if ((attr & FileAttributes.Directory) == FileAttributes.Directory){ // checks to see if it's a dir 
+                    folderName = new DirectoryInfo(hold[content]);
+                    Directory.CreateDirectory(destination + "\\"+folderName.Name); 
+                    foreach (string iterFile in Directory.GetFileSystemEntries(hold[content])){ // iterates through the files in a folder                      
+                        File.Copy(iterFile, destination + "\\" + folderName.Name);
+                }
+            }
+                else{
+                    File.Copy(hold[content],destination); 
+                }
+           }
         }
     }
 }

@@ -29,10 +29,10 @@ namespace SpaceEngineersBackUtility
         }
 
         private void select_Click(object sender, EventArgs e)
-        { 
-            FolderBrowserDialog fbd = new FolderBrowserDialog();
-            fbd.ShowDialog(); // opens fileBroweser 
-            backupPath.Text = fbd.SelectedPath; //Grabs the filepath from object 
+        {
+           FolderBrowserDialog fbd = new FolderBrowserDialog();
+           fbd.ShowDialog(); // opens fileBroweser 
+           backupPath.Text = fbd.SelectedPath; //Grabs the filepath from object 
         }
 
         private void backupPath_TextChanged(object sender, EventArgs e)
@@ -48,7 +48,8 @@ namespace SpaceEngineersBackUtility
                 teleport.destination = backupPath.Text;
                 teleport.isDefaultPath = true;
                 teleport.isLocal = true; //change if user wants to save server meeps
-                teleport.backUp();
+                teleport.doBackUp();
+                
             }else{
                 error.Show();                
                 error.Text = "Please fill out Backup Path.";
