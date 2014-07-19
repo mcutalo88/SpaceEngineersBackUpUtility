@@ -18,11 +18,6 @@ namespace SpaceEngineersBackUtility
             InitializeComponent();
         }
 
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
@@ -33,17 +28,34 @@ namespace SpaceEngineersBackUtility
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            OpenFileDialog ofd = new OpenFileDialog();
-            
-            ofd.ShowDialog(); // opens fileBroweser 
-            textBox1.Text = ofd.FileName; //Grabs the filepath from object 
+        private void select_Click(object sender, EventArgs e)
+        { 
+            FolderBrowserDialog fbd = new FolderBrowserDialog();
+            fbd.ShowDialog(); // opens fileBroweser 
+            backupPath.Text = fbd.SelectedPath; //Grabs the filepath from object 
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void backupPath_TextChanged(object sender, EventArgs e)
         {
+            Transporter teleport = new Transporter();            
+        }
 
+        private void save_Click(object sender, EventArgs e)
+        {
+            Transporter teleport = new Transporter();
+            if (!String.IsNullOrEmpty(backupPath.Text)){
+
+                teleport.destination = backupPath.Text;
+                teleport.isDefaultPath = true;
+                teleport.isLocal = true; //change if user wants to save server meeps
+                teleport.backUp();
+            }else{
+                error.Show();                
+                error.Text = "Please fill out Backup Path.";
+
+            }
+               
+            
         }
     }
 }

@@ -32,3 +32,14 @@ C:\Users\zachmilo\Documents\Visual Studio 2013\Projects\SpaceEngineersBackUpUtil
 C:\Users\zachmilo\Documents\Visual Studio 2013\Projects\SpaceEngineersBackUpUtility\SpaceEngineersBackUtility\obj\Debug\SpaceEngineersBackUtility.Form1.resources
 C:\Users\zachmilo\Documents\Visual Studio 2013\Projects\SpaceEngineersBackUpUtility\SpaceEngineersBackUtility\obj\Debug\SpaceEngineersBackUtility.Properties.Resources.resources
 C:\Users\zachmilo\Documents\Visual Studio 2013\Projects\SpaceEngineersBackUpUtility\SpaceEngineersBackUtility\obj\Debug\SpaceEngineersBackUtility.csproj.GenerateResource.Cache
+C:\Users\mcutalo88\Documents\GitHub\SpaceEngineersBackUpUtility\SpaceEngineersBackUtility\bin\Debug\SpaceEngineersBackUtility.exe.config
+C:\Users\mcutalo88\Documents\GitHub\SpaceEngineersBackUpUtility\SpaceEngineersBackUtility\obj\Debug\SpaceEngineersBackUtility.exe
+C:\Users\mcutalo88\Documents\GitHub\SpaceEngineersBackUpUtility\SpaceEngineersBackUtility\obj\Debug\SpaceEngineersBackUtility.pdb
+C:\Users\mcutalo88\Documents\GitHub\SpaceEngineersBackUpUtility\SpaceEngineersBackUtility\obj\Debug\SpaceEngineersBackUtility.csprojResolveAssemblyReference.cache
+C:\Users\mcutalo88\Documents\GitHub\SpaceEngineersBackUpUtility\SpaceEngineersBackUtility\obj\Debug\SpaceEngineersBackUtility.Form1.resources
+C:\Users\mcutalo88\Documents\GitHub\SpaceEngineersBackUpUtility\SpaceEngineersBackUtility\obj\Debug\SpaceEngineersBackUtility.Properties.Resources.resources
+C:\Users\mcutalo88\Documents\GitHub\SpaceEngineersBackUpUtility\SpaceEngineersBackUtility\obj\Debug\SpaceEngineersBackUtility.csproj.GenerateResource.Cache
+C:\Users\mcutalo88\Documents\GitHub\SpaceEngineersBackUpUtility\SpaceEngineersBackUtility\bin\Debug\space_eng_util_db.mdf
+C:\Users\mcutalo88\Documents\GitHub\SpaceEngineersBackUpUtility\SpaceEngineersBackUtility\bin\Debug\space_eng_util_db_log.ldf
+C:\Users\mcutalo88\Documents\GitHub\SpaceEngineersBackUpUtility\SpaceEngineersBackUtility\bin\Debug\SpaceEngineersBackUtility.exe
+C:\Users\mcutalo88\Documents\GitHub\SpaceEngineersBackUpUtility\SpaceEngineersBackUtility\bin\Debug\SpaceEngineersBackUtility.pdb
