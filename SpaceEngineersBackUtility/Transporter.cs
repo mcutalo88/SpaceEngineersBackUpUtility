@@ -74,7 +74,8 @@ namespace SpaceEngineersBackUtility
            FileAttributes attr; 
            String [] hold = Directory.GetFileSystemEntries(DEFAULT_PATH);
            hold= Directory.GetFileSystemEntries(hold[0]);
-         
+           Directory.CreateDirectory(destination+"\\"+DateTime.Now.ToString("MM-dd-yyyy"));
+           destination += "\\" + DateTime.Now.ToString("MM-dd-yyyy"); 
            for (int content = 0; content < hold.Length; content++ ){ // iterates through folders 
                 attr = File.GetAttributes(hold[content]); // gets path of file or folder
                 if ((attr & FileAttributes.Directory) == FileAttributes.Directory){ // checks to see if it's a dir 

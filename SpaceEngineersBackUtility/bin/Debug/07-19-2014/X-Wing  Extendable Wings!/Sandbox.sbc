@@ -1,0 +1,575 @@
+<?xml version="1.0"?>
+<MyObjectBuilder_Checkpoint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CurrentSector x="0" y="0" z="0" />
+  <GameTime>2081-01-01T04:21:49.2</GameTime>
+  <SessionName>(Workshop) X-Wing | Extendable Wings!</SessionName>
+  <SpectatorPosition>
+    <Position x="-0" y="0" z="-0" />
+    <Forward x="-0" y="0" z="-1" />
+    <Up x="-0" y="1" z="-0" />
+  </SpectatorPosition>
+  <CameraController>Entity</CameraController>
+  <CameraEntity>72278604801445421</CameraEntity>
+  <ControlledObject>72278604801445421</ControlledObject>
+  <Password />
+  <Description>adadadad</Description>
+  <LastSaveTime>2014-07-07T22:34:51.2755453-04:00</LastSaveTime>
+  <WorldID>22cb4f95-dd79-4997-b89d-62a8dfeda508</WorldID>
+  <SpectatorDistance>16.7730331</SpectatorDistance>
+  <Players>
+    <dictionary>
+      <item>
+        <Key xsi:type="xsd:unsignedLong">76561198061406852</Key>
+        <Value xsi:type="MyObjectBuilder_Player">
+          <SteamID>76561198061406852</SteamID>
+          <CameraControllers>
+            <dictionary>
+              <item>
+                <Key xsi:type="xsd:long">-2106779928265355856</Key>
+                <Value xsi:type="MyCameraControllerSettings">
+                  <Controller>Entity</Controller>
+                  <Distance>10.9949913</Distance>
+                </Value>
+              </item>
+              <item>
+                <Key xsi:type="xsd:long">-8473484590551788246</Key>
+                <Value xsi:type="MyCameraControllerSettings">
+                  <Controller>ThirdPersonSpectator</Controller>
+                  <Distance>52.7565842</Distance>
+                </Value>
+              </item>
+              <item>
+                <Key xsi:type="xsd:long">-940005527238856399</Key>
+                <Value xsi:type="MyCameraControllerSettings">
+                  <Controller>ThirdPersonSpectator</Controller>
+                  <Distance>66.4717941</Distance>
+                </Value>
+              </item>
+              <item>
+                <Key xsi:type="xsd:long">-1394049159835559271</Key>
+                <Value xsi:type="MyCameraControllerSettings">
+                  <Controller>ThirdPersonSpectator</Controller>
+                  <Distance>13.0516415</Distance>
+                </Value>
+              </item>
+              <item>
+                <Key xsi:type="xsd:long">-3958596160942005349</Key>
+                <Value xsi:type="MyCameraControllerSettings">
+                  <Controller>ThirdPersonSpectator</Controller>
+                  <Distance>38.4457321</Distance>
+                </Value>
+              </item>
+              <item>
+                <Key xsi:type="xsd:long">-2733180279715212274</Key>
+                <Value xsi:type="MyCameraControllerSettings">
+                  <Controller>ThirdPersonSpectator</Controller>
+                  <Distance>14.4300146</Distance>
+                </Value>
+              </item>
+              <item>
+                <Key xsi:type="xsd:long">-243084738640536043</Key>
+                <Value xsi:type="MyCameraControllerSettings">
+                  <Controller>Entity</Controller>
+                  <Distance>80.1329346</Distance>
+                </Value>
+              </item>
+              <item>
+                <Key xsi:type="xsd:long">-6563725469715898600</Key>
+                <Value xsi:type="MyCameraControllerSettings">
+                  <Controller>Entity</Controller>
+                  <Distance>14.5961962</Distance>
+                </Value>
+              </item>
+              <item>
+                <Key xsi:type="xsd:long">6606818369552766084</Key>
+                <Value xsi:type="MyCameraControllerSettings">
+                  <Controller>Entity</Controller>
+                  <Distance>14.7103634</Distance>
+                </Value>
+              </item>
+              <item>
+                <Key xsi:type="xsd:long">5520634616819384706</Key>
+                <Value xsi:type="MyCameraControllerSettings">
+                  <Controller>Entity</Controller>
+                  <Distance>65.4808655</Distance>
+                </Value>
+              </item>
+              <item>
+                <Key xsi:type="xsd:long">-2998593533228022752</Key>
+                <Value xsi:type="MyCameraControllerSettings">
+                  <Controller>ThirdPersonSpectator</Controller>
+                  <Distance>27.0934963</Distance>
+                </Value>
+              </item>
+              <item>
+                <Key xsi:type="xsd:long">-1186614995743464580</Key>
+                <Value xsi:type="MyCameraControllerSettings">
+                  <Controller>ThirdPersonSpectator</Controller>
+                  <Distance>26.4411869</Distance>
+                </Value>
+              </item>
+              <item>
+                <Key xsi:type="xsd:long">1775150018934986418</Key>
+                <Value xsi:type="MyCameraControllerSettings">
+                  <Controller>ThirdPersonSpectator</Controller>
+                  <Distance>40.12993</Distance>
+                </Value>
+              </item>
+              <item>
+                <Key xsi:type="xsd:long">-2685133295509463642</Key>
+                <Value xsi:type="MyCameraControllerSettings">
+                  <Controller>ThirdPersonSpectator</Controller>
+                  <Distance>34.5586</Distance>
+                </Value>
+              </item>
+              <item>
+                <Key xsi:type="xsd:long">7374991041449572527</Key>
+                <Value xsi:type="MyCameraControllerSettings">
+                  <Controller>ThirdPersonSpectator</Controller>
+                  <Distance>34.5586</Distance>
+                </Value>
+              </item>
+              <item>
+                <Key xsi:type="xsd:long">2941228797096849043</Key>
+                <Value xsi:type="MyCameraControllerSettings">
+                  <Controller>ThirdPersonSpectator</Controller>
+                  <Distance>25.8607216</Distance>
+                </Value>
+              </item>
+              <item>
+                <Key xsi:type="xsd:long">762662572851582978</Key>
+                <Value xsi:type="MyCameraControllerSettings">
+                  <Controller>ThirdPersonSpectator</Controller>
+                  <Distance>27.9408779</Distance>
+                </Value>
+              </item>
+              <item>
+                <Key xsi:type="xsd:long">3544206938443401963</Key>
+                <Value xsi:type="MyCameraControllerSettings">
+                  <Controller>ThirdPersonSpectator</Controller>
+                  <Distance>13.3726873</Distance>
+                </Value>
+              </item>
+              <item>
+                <Key xsi:type="xsd:long">1089979941384499284</Key>
+                <Value xsi:type="MyCameraControllerSettings">
+                  <Controller>Entity</Controller>
+                  <Distance>15.9319067</Distance>
+                </Value>
+              </item>
+              <item>
+                <Key xsi:type="xsd:long">3313287395453021805</Key>
+                <Value xsi:type="MyCameraControllerSettings">
+                  <Controller>ThirdPersonSpectator</Controller>
+                  <Distance>18.8388367</Distance>
+                </Value>
+              </item>
+              <item>
+                <Key xsi:type="xsd:long">-664280557052479692</Key>
+                <Value xsi:type="MyCameraControllerSettings">
+                  <Controller>ThirdPersonSpectator</Controller>
+                  <Distance>15.6291666</Distance>
+                </Value>
+              </item>
+              <item>
+                <Key xsi:type="xsd:long">-7993526075557549607</Key>
+                <Value xsi:type="MyCameraControllerSettings">
+                  <Controller>ThirdPersonSpectator</Controller>
+                  <Distance>25.8607216</Distance>
+                </Value>
+              </item>
+              <item>
+                <Key xsi:type="xsd:long">72278604801445421</Key>
+                <Value xsi:type="MyCameraControllerSettings">
+                  <Controller>Entity</Controller>
+                  <Distance>16.7730331</Distance>
+                </Value>
+              </item>
+              <item>
+                <Key xsi:type="xsd:long">72278065330585473</Key>
+                <Value xsi:type="MyCameraControllerSettings">
+                  <Controller>Entity</Controller>
+                  <Distance>15.9319105</Distance>
+                </Value>
+              </item>
+              <item>
+                <Key xsi:type="xsd:long">72201352026189588</Key>
+                <Value xsi:type="MyCameraControllerSettings">
+                  <Controller>ThirdPersonSpectator</Controller>
+                  <Distance>39.73844</Distance>
+                </Value>
+              </item>
+              <item>
+                <Key xsi:type="xsd:long">72100452524676803</Key>
+                <Value xsi:type="MyCameraControllerSettings">
+                  <Controller>ThirdPersonSpectator</Controller>
+                  <Distance>15.86303</Distance>
+                </Value>
+              </item>
+              <item>
+                <Key xsi:type="xsd:long">72148736530768120</Key>
+                <Value xsi:type="MyCameraControllerSettings">
+                  <Controller>ThirdPersonSpectator</Controller>
+                  <Distance>18.0141735</Distance>
+                </Value>
+              </item>
+              <item>
+                <Key xsi:type="xsd:long">72170708641605618</Key>
+                <Value xsi:type="MyCameraControllerSettings">
+                  <Controller>ThirdPersonSpectator</Controller>
+                  <Distance>12.0916519</Distance>
+                </Value>
+              </item>
+              <item>
+                <Key xsi:type="xsd:long">72062388974972585</Key>
+                <Value xsi:type="MyCameraControllerSettings">
+                  <Controller>Entity</Controller>
+                  <Distance>19.08983</Distance>
+                </Value>
+              </item>
+              <item>
+                <Key xsi:type="xsd:long">72161857529810642</Key>
+                <Value xsi:type="MyCameraControllerSettings">
+                  <Controller>ThirdPersonSpectator</Controller>
+                  <Distance>19.0898323</Distance>
+                </Value>
+              </item>
+              <item>
+                <Key xsi:type="xsd:long">72245151424969752</Key>
+                <Value xsi:type="MyCameraControllerSettings">
+                  <Controller>Entity</Controller>
+                  <Distance>19.08983</Distance>
+                </Value>
+              </item>
+            </dictionary>
+          </CameraControllers>
+          <PlayerEntity>72278604801445421</PlayerEntity>
+          <PlayerModel>Default_Astronaut</PlayerModel>
+          <PlayerId>144370936351236328</PlayerId>
+        </Value>
+      </item>
+    </dictionary>
+  </Players>
+  <CharacterToolbar>
+    <ToolbarType>Character</ToolbarType>
+    <SelectedSlot xsi:nil="true" />
+    <Slots>
+      <Slot>
+        <Index>0</Index>
+        <Item>CubeBlock:LargeHeavyBlockArmorBlock</Item>
+      </Slot>
+      <Slot>
+        <Index>1</Index>
+        <Item>CubeBlock:LargeHeavyBlockArmorSlope</Item>
+      </Slot>
+      <Slot>
+        <Index>2</Index>
+        <Item>CubeBlock:LargeHeavyBlockArmorCorner</Item>
+      </Slot>
+      <Slot>
+        <Index>3</Index>
+        <Item>CubeBlock:LargeHeavyBlockArmorCornerInv</Item>
+      </Slot>
+      <Slot>
+        <Index>4</Index>
+        <Item>Gyro:LargeBlockGyro</Item>
+      </Slot>
+      <Slot>
+        <Index>5</Index>
+        <Item>Thrust:LargeBlockSmallThrust</Item>
+      </Slot>
+      <Slot>
+        <Index>6</Index>
+        <Item>Thrust:LargeBlockLargeThrust</Item>
+      </Slot>
+      <Slot>
+        <Index>7</Index>
+        <Item>Reactor:LargeBlockSmallGenerator</Item>
+      </Slot>
+      <Slot>
+        <Index>8</Index>
+        <Item>MergeBlock:LargeShipMergeBlock</Item>
+      </Slot>
+    </Slots>
+    <ColorMaskHSVList>
+      <Vector3>
+        <X>0</X>
+        <Y>-1</Y>
+        <Z>-0.48</Z>
+      </Vector3>
+      <Vector3>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.05</Z>
+      </Vector3>
+      <Vector3>
+        <X>0.333333343</X>
+        <Y>-0.48</Y>
+        <Z>-0.25</Z>
+      </Vector3>
+      <Vector3>
+        <X>0.575</X>
+        <Y>0</Y>
+        <Z>0</Z>
+      </Vector3>
+      <Vector3>
+        <X>0.122222222</X>
+        <Y>-0.1</Y>
+        <Z>0.26</Z>
+      </Vector3>
+      <Vector3>
+        <X>0</X>
+        <Y>-0.95</Y>
+        <Z>1</Z>
+      </Vector3>
+      <Vector3>
+        <X>0</X>
+        <Y>-0.96</Y>
+        <Z>-0.5</Z>
+      </Vector3>
+      <Vector3>
+        <X>0</X>
+        <Y>-1</Y>
+        <Z>-0.15</Z>
+      </Vector3>
+      <Vector3>
+        <X>0</X>
+        <Y>0.15</Y>
+        <Z>0.25</Z>
+      </Vector3>
+      <Vector3>
+        <X>0.333333343</X>
+        <Y>-0.33</Y>
+        <Z>-0.05</Z>
+      </Vector3>
+      <Vector3>
+        <X>0.575</X>
+        <Y>0.15</Y>
+        <Z>0.2</Z>
+      </Vector3>
+      <Vector3>
+        <X>0.122222222</X>
+        <Y>0.0500000045</Y>
+        <Z>0.459999979</Z>
+      </Vector3>
+      <Vector3>
+        <X>0</X>
+        <Y>-0.8</Y>
+        <Z>0.09</Z>
+      </Vector3>
+      <Vector3>
+        <X>1</X>
+        <Y>-0.31</Y>
+        <Z>-0.21</Z>
+      </Vector3>
+    </ColorMaskHSVList>
+  </CharacterToolbar>
+  <SmallCockpitToolbar>
+    <ToolbarType>SmallCockpit</ToolbarType>
+    <SelectedSlot xsi:nil="true" />
+    <Slots>
+      <Slot>
+        <Index>0</Index>
+        <Item>SmallGatlingGun:</Item>
+      </Slot>
+    </Slots>
+    <ColorMaskHSVList>
+      <Vector3>
+        <X>0</X>
+        <Y>-1</Y>
+        <Z>-0.48</Z>
+      </Vector3>
+      <Vector3>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.05</Z>
+      </Vector3>
+      <Vector3>
+        <X>0.333333343</X>
+        <Y>-0.48</Y>
+        <Z>-0.25</Z>
+      </Vector3>
+      <Vector3>
+        <X>0.575</X>
+        <Y>0</Y>
+        <Z>0</Z>
+      </Vector3>
+      <Vector3>
+        <X>0.122222222</X>
+        <Y>-0.1</Y>
+        <Z>0.26</Z>
+      </Vector3>
+      <Vector3>
+        <X>0</X>
+        <Y>-0.95</Y>
+        <Z>1</Z>
+      </Vector3>
+      <Vector3>
+        <X>0</X>
+        <Y>-0.96</Y>
+        <Z>-0.5</Z>
+      </Vector3>
+      <Vector3>
+        <X>0</X>
+        <Y>-1</Y>
+        <Z>-0.15</Z>
+      </Vector3>
+      <Vector3>
+        <X>0</X>
+        <Y>0.15</Y>
+        <Z>0.25</Z>
+      </Vector3>
+      <Vector3>
+        <X>0.333333343</X>
+        <Y>-0.33</Y>
+        <Z>-0.05</Z>
+      </Vector3>
+      <Vector3>
+        <X>0.575</X>
+        <Y>0.15</Y>
+        <Z>0.2</Z>
+      </Vector3>
+      <Vector3>
+        <X>0.122222222</X>
+        <Y>0.0500000045</Y>
+        <Z>0.459999979</Z>
+      </Vector3>
+      <Vector3>
+        <X>0</X>
+        <Y>-0.8</Y>
+        <Z>0.09</Z>
+      </Vector3>
+      <Vector3>
+        <X>1</X>
+        <Y>-0.31</Y>
+        <Z>-0.21</Z>
+      </Vector3>
+    </ColorMaskHSVList>
+  </SmallCockpitToolbar>
+  <LargeCockpitToolbar>
+    <ToolbarType>LargeCockpit</ToolbarType>
+    <SelectedSlot xsi:nil="true" />
+    <Slots />
+    <ColorMaskHSVList>
+      <Vector3>
+        <X>0</X>
+        <Y>-1</Y>
+        <Z>-0.48</Z>
+      </Vector3>
+      <Vector3>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.05</Z>
+      </Vector3>
+      <Vector3>
+        <X>0.333333343</X>
+        <Y>-0.48</Y>
+        <Z>-0.25</Z>
+      </Vector3>
+      <Vector3>
+        <X>0.575</X>
+        <Y>0</Y>
+        <Z>0</Z>
+      </Vector3>
+      <Vector3>
+        <X>0.122222222</X>
+        <Y>-0.1</Y>
+        <Z>0.26</Z>
+      </Vector3>
+      <Vector3>
+        <X>0</X>
+        <Y>-0.95</Y>
+        <Z>1</Z>
+      </Vector3>
+      <Vector3>
+        <X>0</X>
+        <Y>-0.96</Y>
+        <Z>-0.5</Z>
+      </Vector3>
+      <Vector3>
+        <X>0</X>
+        <Y>-1</Y>
+        <Z>-0.15</Z>
+      </Vector3>
+      <Vector3>
+        <X>0</X>
+        <Y>0.15</Y>
+        <Z>0.25</Z>
+      </Vector3>
+      <Vector3>
+        <X>0.333333343</X>
+        <Y>-0.33</Y>
+        <Z>-0.05</Z>
+      </Vector3>
+      <Vector3>
+        <X>0.575</X>
+        <Y>0.15</Y>
+        <Z>0.2</Z>
+      </Vector3>
+      <Vector3>
+        <X>0.122222222</X>
+        <Y>0.0500000045</Y>
+        <Z>0.459999979</Z>
+      </Vector3>
+      <Vector3>
+        <X>0</X>
+        <Y>-0.8</Y>
+        <Z>0.09</Z>
+      </Vector3>
+      <Vector3>
+        <X>1</X>
+        <Y>-0.31</Y>
+        <Z>-0.21</Z>
+      </Vector3>
+    </ColorMaskHSVList>
+  </LargeCockpitToolbar>
+  <ControlledEntities>
+    <dictionary>
+      <item>
+        <Key xsi:type="xsd:long">72278604801445421</Key>
+        <Value xsi:type="xsd:unsignedLong">76561198061406852</Value>
+      </item>
+    </dictionary>
+  </ControlledEntities>
+  <Settings>
+    <GameMode>Creative</GameMode>
+    <InventorySizeMultiplier>1</InventorySizeMultiplier>
+    <AssemblerSpeedMultiplier>1</AssemblerSpeedMultiplier>
+    <AssemblerEfficiencyMultiplier>1</AssemblerEfficiencyMultiplier>
+    <RefinerySpeedMultiplier>1</RefinerySpeedMultiplier>
+    <OnlineMode>OFFLINE</OnlineMode>
+    <MaxPlayers>4</MaxPlayers>
+    <MaxFloatingObjects>16</MaxFloatingObjects>
+    <EnvironmentHostility>SAFE</EnvironmentHostility>
+    <AutoHealing>true</AutoHealing>
+    <EnableCopyPaste>true</EnableCopyPaste>
+    <AutoSave>true</AutoSave>
+    <WeaponsEnabled>true</WeaponsEnabled>
+    <ShowPlayerNamesOnHud>true</ShowPlayerNamesOnHud>
+    <ThrusterDamage>false</ThrusterDamage>
+    <CargoShipsEnabled>true</CargoShipsEnabled>
+    <EnableSpectator>false</EnableSpectator>
+    <RemoveTrash>true</RemoveTrash>
+    <WorldSizeKm>10</WorldSizeKm>
+    <RespawnShipDelete>true</RespawnShipDelete>
+    <ResetOwnership>false</ResetOwnership>
+  </Settings>
+  <AppVersion>1037014</AppVersion>
+  <Factions>
+    <Factions />
+    <Players>
+      <dictionary />
+    </Players>
+    <Relations />
+    <Requests />
+  </Factions>
+  <AllPlayers>
+    <PlayerItem>
+      <PlayerId>144370936351236328</PlayerId>
+      <IsDead>false</IsDead>
+      <Name>Daeger</Name>
+      <SteamId>76561198061406852</SteamId>
+      <Model>Default_Astronaut</Model>
+    </PlayerItem>
+  </AllPlayers>
+</MyObjectBuilder_Checkpoint>
