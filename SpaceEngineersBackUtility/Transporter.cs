@@ -12,13 +12,12 @@ namespace SpaceEngineersBackUtility
     {
         public string destination  {get; set;}     //The path the user wants to move his saved games to.
         public string source       {get; set;}     //Custom source path where users saved games reside.
-        public bool isDefaultPath  {get; set;}    
-        public bool isDafaultServer{get; set;}
+        public bool isDefaultPath  {get; set;}     //Will use DEFAULT_PATH games files and back them up.    
+        public bool isDafaultServer{get; set;}     //Will use DEFAULT_SERVER_PATH game files and back them up.
         public bool isLocal        {get; set;}     //if true: local games will be saved, False: server games will be saved.
 
-        //Constants
-        private static string DEFAULT_PATH          =  Environment.ExpandEnvironmentVariables("%AppData%\\SpaceEngineers\\Saves");     //Default save for all local games.
-        private static string DEFAULT_SERVER_PATH = @"\%programdata%\SpaceEngineersDedicated";                       //Default save for all dedicated server games.
+        private static string DEFAULT_PATH        = Environment.ExpandEnvironmentVariables("%AppData%\\SpaceEngineers\\Saves");      //Default save for all local games.
+        private static string DEFAULT_SERVER_PATH = Environment.ExpandEnvironmentVariables("%programdata%\\SpaceEngineersDedicated");//Default save for all dedicated server games.
 
         public Transporter(){
             this.destination     = "";
@@ -43,56 +42,70 @@ namespace SpaceEngineersBackUtility
          * Moves File to the destination.
          * TODO: make backup a service.
          */
-        public void backUp(){
-            
-            try{
-                if (isLocal)
-                {
-                    if (isDefaultPath)
-                        
-                        File.Copy(DEFAULT_PATH, destination);                      
-                    else
-                        //Err checking
-                        File.Copy(source, destination);
-                }
+        public bool backUp(){                        
+            if (isLocal)
+            {
+                if (isDefaultPath)
+                    return this.moveFiles(DEFAULT_PATH);
                 else
-                {
-                    if (isDafaultServer)
-                        
-                        File.Copy(DEFAULT_SERVER_PATH, destination);
-                    else
-                        //Err Checking                        
-                        File.Copy(source, destination);
-                }
+                    return this.moveFiles(source);
             }
-            catch (FileNotFoundException ex){
-                Console.Write(ex);
-            }
+            else
+            {
+                if (isDafaultServer)
+                    return this.moveFiles(DEFAULT_SERVER_PATH);
+                else
+                    return this.moveFiles(source);
+            }            
         }
-        public void doBackUp(){
+
+        private bool moveFiles(string currentSelectedPath){
            DirectoryInfo folderName;
-           FileAttributes attr; 
-           String [] hold = Directory.GetFileSystemEntries(DEFAULT_PATH);
-           hold= Directory.GetFileSystemEntries(hold[0]);
-           Directory.CreateDirectory(destination+"\\"+DateTime.Now.ToString("MM-dd-yyyy"));
-           destination += "\\" + DateTime.Now.ToString("MM-dd-yyyy"); 
-           for (int content = 0; content < hold.Length; content++ ){ // iterates through folders 
-                attr = File.GetAttributes(hold[content]); // gets path of file or folder
-                if ((attr & FileAttributes.Directory) == FileAttributes.Directory){ // checks to see if it's a dir 
-                    
-                    folderName = new DirectoryInfo(hold[content]);
-                    Directory.CreateDirectory(destination + "\\"+folderName.Name); 
+           FileAttributes attr;
 
-                    foreach (string iterFile in Directory.GetFileSystemEntries(hold[content])){ // iterates through the files in a folder 
-                        System.IO.FileInfo fi = new System.IO.FileInfo(iterFile);
-                        File.Copy(iterFile, destination + "\\"+folderName.Name +"\\"+fi.Name);
-                    }
+           try
+           {
+               String[] hold = Directory.GetFileSystemEntries(currentSelectedPath);
+               hold = Directory.GetFileSystemEntries(hold[0]);
 
-                }else{
-                    System.IO.FileInfo fi = new System.IO.FileInfo(hold[content]);
-                    File.Copy(hold[content],destination+"\\"+fi.Name); 
-                }
+               Directory.CreateDirectory(destination + "\\" + DateTime.Now.ToString("MM-dd-yyyy"));
+               destination += "\\" + DateTime.Now.ToString("MM-dd-yyyy");
+
+               for (int content = 0; content < hold.Length; content++)
+               { // iterates through folders 
+                   attr = File.GetAttributes(hold[content]); // gets path of file or folder
+                   if ((attr & FileAttributes.Directory) == FileAttributes.Directory)
+                   { // checks to see if it's a dir 
+
+                       folderName = new DirectoryInfo(hold[content]);
+                       Directory.CreateDirectory(destination + "\\" + folderName.Name);
+
+                       foreach (string iterFile in Directory.GetFileSystemEntries(hold[content]))
+                       { // iterates through the files in a folder 
+                           System.IO.FileInfo fi = new System.IO.FileInfo(iterFile);
+                           File.Copy(iterFile, destination + "\\" + folderName.Name + "\\" + fi.Name);
+                       }
+                   }
+                   else
+                   {
+                       System.IO.FileInfo fi = new System.IO.FileInfo(hold[content]);
+                       File.Copy(hold[content], destination + "\\" + fi.Name);
+                   }
+               }
+
+               return true;
            }
+           catch (FileNotFoundException ex)
+           {
+               Console.WriteLine(ex.StackTrace);
+               return false;
+           }
+           catch (IOException e)
+           {
+               Console.WriteLine(e.StackTrace);
+               return false;
+           }           
         }
+
     }
 }
