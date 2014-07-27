@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="SpaceEngineersBackUtility.exe" version="1.0.0.0" publicKeyToken="093e40a6b1f6aaa4" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="favicon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="SpaceEngineersBackUtility" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="SpaceEngineersBackUtility.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SpaceEngineersBackUtility.exe" size="57344">
+      <assemblyIdentity name="SpaceEngineersBackUtility" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>0DDu8r85VZBqZPPEtQaJMR4lAkH7BGjDzp/fdPL38dw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="assets\img\favicon.ico" size="15086">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>UXxdmBJJEQdIcz8g9yw0ed1QjjkBOP/88F0rAsHgrJ8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="assets\img\space.png" size="9356">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>3DykaSsymAEeo8Yod9zXx9RAdDo1aIR1NeopHcZCxlY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="favicon.ico" size="15086">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>UXxdmBJJEQdIcz8g9yw0ed1QjjkBOP/88F0rAsHgrJ8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="space_eng_util_db.mdf" size="3211264" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>7R6+6qL0TW8i2xVh79p7jH5rpl3nM7pme6NB6YNic2o=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="space_eng_util_db_log.ldf" size="802816" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>EnBZ/eS/lzdxR7GORUyV2FWZ42wNiebWerF8t9bKXtk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="SpaceEngineersBackUtility.exe.config" size="596">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>iZ+ENbABVuehLVsibSjz+r/9sgMOLdduGfOYoES4cY4=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=mcutalo\mcutalo88" issuerKeyHash="f5e50d5d467e125e2a9ebb71664b8424bfbc5f54" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>NKIMwDdpX6E3gBjTUZuk2ONZhC9gBzB5Ax7JDxbrwJE=</DigestValue></Reference></SignedInfo><SignatureValue>vYZ3zgrIMTUfCSRICfbAhQjYXXiv+1CxDxNyBqPwH58bZZDVdsp10cqNIAeE14Wspiqnb9XU5FVFhH51E15cBdbYTboTAC9Ft28VGu5lGmj9Box1s49+QunVqvg/ZoTsUn7osUWUDYbC8K+83wYZFHGJojtol7Ct3xa7w9SqV8Y=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>xusIJyqfOPciRvk2FeH9T7Zwogucr4TtlUJqotV+n9Y6LDhP63iE4GoBWWw+HtUmesBrOAHV4OIhK38zJF+oR+rQ5Kx5ZAQWccWxBuybuGG50TORpzSGxFPiEbZB2KMwQHPfKQHmjLMgm0289Z8WQ8df0wG2S/QNBKBUW9zNjhk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="91c0eb160fc91e03793007602f8459e3d8a49b51d3188037a15f6937c00ca234" Description="" Url=""><as:assemblyIdentity name="SpaceEngineersBackUtility.exe" version="1.0.0.0" publicKeyToken="093e40a6b1f6aaa4" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=mcutalo\mcutalo88</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Giq7sbOt5yDNGAbv0aAAdZwOaCG55p+5E94Fgs/XwQs=</DigestValue></Reference></SignedInfo><SignatureValue>G5yPFfM/VQDFshuOc9PFF7ZMkJfJpebnAdIydoCZn2FbiZv1NzLw0mwheVvl7/ZOnMO9ApgwU5UJWYcd8zgp4rTm2yLyK2VV4HXWSeor4wARtjLKLKZiDf4S59iF+pZ/y5icS3A4HgJvfVbleIyf1bIAUcXfpCkAfL64m/D2kPI=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>xusIJyqfOPciRvk2FeH9T7Zwogucr4TtlUJqotV+n9Y6LDhP63iE4GoBWWw+HtUmesBrOAHV4OIhK38zJF+oR+rQ5Kx5ZAQWccWxBuybuGG50TORpzSGxFPiEbZB2KMwQHPfKQHmjLMgm0289Z8WQ8df0wG2S/QNBKBUW9zNjhk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB3TCCAUagAwIBAgIQfq+xbWFu5LFDAXTpzxQNzjANBgkqhkiG9w0BAQsFADAtMSswKQYDVQQDHiIAbQBjAHUAdABhAGwAbwBcAG0AYwB1AHQAYQBsAG8AOAA4MB4XDTE0MDcyMTAwMDk0N1oXDTE1MDcyMTA2MDk0N1owLTErMCkGA1UEAx4iAG0AYwB1AHQAYQBsAG8AXABtAGMAdQB0AGEAbABvADgAODCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAxusIJyqfOPciRvk2FeH9T7Zwogucr4TtlUJqotV+n9Y6LDhP63iE4GoBWWw+HtUmesBrOAHV4OIhK38zJF+oR+rQ5Kx5ZAQWccWxBuybuGG50TORpzSGxFPiEbZB2KMwQHPfKQHmjLMgm0289Z8WQ8df0wG2S/QNBKBUW9zNjhkCAwEAATANBgkqhkiG9w0BAQsFAAOBgQBtuUORoVRbdt5TONq7hzuP1FInFLtuKTZqhbly+AFbRQz+6X6X6kN5Q/fL6ERCXTrxwjLZRMdkHE42cZLb9VDKA3ar9DR5yxS/B30MtlXVyr7U8aVxIPQSGLt6SS5yHeHzKuEH71zOC42RkkRGWFufRJza7E4FzmMsE6ktV/wOTw==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

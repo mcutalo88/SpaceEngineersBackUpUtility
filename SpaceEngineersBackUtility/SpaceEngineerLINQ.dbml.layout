@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="SpaceEngineerLINQ">
+  <DataContextMoniker Name="/SpaceEngineerLINQDataContext" />
+  <nestedChildShapes>
+    <classShape Id="07c7b8dc-f35c-4648-a936-a521f64b14e2" absoluteBounds="0.75, 1.125, 2, 1.1939925130208331">
+      <DataClassMoniker Name="/SpaceEngineerLINQDataContext/LocalBackup" />
+      <nestedChildShapes>
+        <elementListCompartment Id="09fdc4f5-8209-4995-8e40-f4237a8a497a" absoluteBounds="0.765, 1.585, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

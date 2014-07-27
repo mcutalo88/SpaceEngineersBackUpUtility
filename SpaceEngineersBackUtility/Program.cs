@@ -17,6 +17,7 @@ namespace SpaceEngineersBackUtility
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new BackUp());
+            //System.ServiceProcess.ServiceBase.Run(new BackUpService()); //Start Service when program starts...
         }
     }
 }

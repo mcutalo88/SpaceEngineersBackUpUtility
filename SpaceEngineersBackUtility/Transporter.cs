@@ -10,6 +10,9 @@ namespace SpaceEngineersBackUtility
 {
     class Transporter
     {
+        System.Windows.Forms.Timer time = new System.Windows.Forms.Timer();
+        public bool isHourly { get; set; }
+
         public string destination  {get; set;}     //The path the user wants to move his saved games to.
         public string source       {get; set;}     //Custom source path where users saved games reside.
         public bool isDefaultPath  {get; set;}     //Will use DEFAULT_PATH games files and back them up.    
@@ -25,17 +28,25 @@ namespace SpaceEngineersBackUtility
             this.isDefaultPath   = true;
             this.isDafaultServer = true;
             this.isLocal         = true;
+            this.isHourly = true; //take out
         }
 
-        /*
-         * Validate File that source is pointing too.
-         */
-        public Boolean validateFile(){
-
-            if (File.Exists(source))
-                return true;
-            else
-                return false;
+        public void startBackupSequence()
+        {           
+            //milliseconds for 1 hr ... 3600000
+            if (isHourly)
+            {
+                time.Tick += new EventHandler(timer_tick);
+                time.Interval = 3600000;
+                time.Start();              
+            }
+        }
+        
+        private void timer_tick(object sender, EventArgs e)
+        {
+            time.Stop();
+            this.backUp();
+            time.Enabled = true;           
         }
 
         /*
@@ -60,6 +71,9 @@ namespace SpaceEngineersBackUtility
         }
 
         private bool moveFiles(string currentSelectedPath){
+           string baseDestination = this.destination;
+           string folderTimeStamp = DateTime.Now.ToString("MM-dd-yyyy_HH-mm-ss");
+
            DirectoryInfo folderName;
            FileAttributes attr;
 
@@ -68,8 +82,8 @@ namespace SpaceEngineersBackUtility
                String[] hold = Directory.GetFileSystemEntries(currentSelectedPath);
                hold = Directory.GetFileSystemEntries(hold[0]);
 
-               Directory.CreateDirectory(destination + "\\" + DateTime.Now.ToString("MM-dd-yyyy"));
-               destination += "\\" + DateTime.Now.ToString("MM-dd-yyyy");
+               Directory.CreateDirectory(baseDestination + "\\" + folderTimeStamp);
+               baseDestination += "\\" + folderTimeStamp;
 
                for (int content = 0; content < hold.Length; content++)
                { // iterates through folders 
@@ -78,18 +92,18 @@ namespace SpaceEngineersBackUtility
                    { // checks to see if it's a dir 
 
                        folderName = new DirectoryInfo(hold[content]);
-                       Directory.CreateDirectory(destination + "\\" + folderName.Name);
+                       Directory.CreateDirectory(baseDestination + "\\" + folderName.Name);
 
                        foreach (string iterFile in Directory.GetFileSystemEntries(hold[content]))
                        { // iterates through the files in a folder 
                            System.IO.FileInfo fi = new System.IO.FileInfo(iterFile);
-                           File.Copy(iterFile, destination + "\\" + folderName.Name + "\\" + fi.Name);
+                           File.Copy(iterFile, baseDestination + "\\" + folderName.Name + "\\" + fi.Name);
                        }
                    }
                    else
                    {
                        System.IO.FileInfo fi = new System.IO.FileInfo(hold[content]);
-                       File.Copy(hold[content], destination + "\\" + fi.Name);
+                       File.Copy(hold[content], baseDestination + "\\" + fi.Name);
                    }
                }
 

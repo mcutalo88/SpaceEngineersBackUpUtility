@@ -43,3 +43,7 @@ C:\Users\mcutalo88\Documents\GitHub\SpaceEngineersBackUpUtility\SpaceEngineersBa
 C:\Users\mcutalo88\Documents\GitHub\SpaceEngineersBackUpUtility\SpaceEngineersBackUtility\bin\Debug\SpaceEngineersBackUtility.exe
 C:\Users\mcutalo88\Documents\GitHub\SpaceEngineersBackUpUtility\SpaceEngineersBackUtility\bin\Debug\SpaceEngineersBackUtility.pdb
 C:\Users\mcutalo88\Documents\GitHub\SpaceEngineersBackUpUtility\SpaceEngineersBackUtility\obj\Debug\SpaceEngineersBackUtility.BackUp.resources
+C:\Users\mcutalo88\Documents\GitHub\SpaceEngineersBackUpUtility\SpaceEngineersBackUtility\bin\Debug\SpaceEngineersBackUtility.exe.manifest
+C:\Users\mcutalo88\Documents\GitHub\SpaceEngineersBackUpUtility\SpaceEngineersBackUtility\bin\Debug\SpaceEngineersBackUtility.application
+C:\Users\mcutalo88\Documents\GitHub\SpaceEngineersBackUpUtility\SpaceEngineersBackUtility\obj\Debug\SpaceEngineersBackUtility.exe.manifest
+C:\Users\mcutalo88\Documents\GitHub\SpaceEngineersBackUpUtility\SpaceEngineersBackUtility\obj\Debug\SpaceEngineersBackUtility.application
