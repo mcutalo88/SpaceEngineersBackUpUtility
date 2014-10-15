@@ -29,7 +29,6 @@ C:\Users\zachmilo\Documents\Visual Studio 2013\Projects\SpaceEngineersBackUpUtil
 C:\Users\zachmilo\Documents\Visual Studio 2013\Projects\SpaceEngineersBackUpUtility\SpaceEngineersBackUtility\bin\Debug\SpaceEngineersBackUtility.exe
 C:\Users\zachmilo\Documents\Visual Studio 2013\Projects\SpaceEngineersBackUpUtility\SpaceEngineersBackUtility\bin\Debug\SpaceEngineersBackUtility.pdb
 C:\Users\zachmilo\Documents\Visual Studio 2013\Projects\SpaceEngineersBackUpUtility\SpaceEngineersBackUtility\obj\Debug\SpaceEngineersBackUtility.csprojResolveAssemblyReference.cache
-C:\Users\zachmilo\Documents\Visual Studio 2013\Projects\SpaceEngineersBackUpUtility\SpaceEngineersBackUtility\obj\Debug\SpaceEngineersBackUtility.Form1.resources
 C:\Users\zachmilo\Documents\Visual Studio 2013\Projects\SpaceEngineersBackUpUtility\SpaceEngineersBackUtility\obj\Debug\SpaceEngineersBackUtility.Properties.Resources.resources
 C:\Users\zachmilo\Documents\Visual Studio 2013\Projects\SpaceEngineersBackUpUtility\SpaceEngineersBackUtility\obj\Debug\SpaceEngineersBackUtility.csproj.GenerateResource.Cache
 C:\Users\mcutalo88\Documents\GitHub\SpaceEngineersBackUpUtility\SpaceEngineersBackUtility\bin\Debug\SpaceEngineersBackUtility.exe.config
@@ -47,3 +46,8 @@ C:\Users\mcutalo88\Documents\GitHub\SpaceEngineersBackUpUtility\SpaceEngineersBa
 C:\Users\mcutalo88\Documents\GitHub\SpaceEngineersBackUpUtility\SpaceEngineersBackUtility\bin\Debug\SpaceEngineersBackUtility.application
 C:\Users\mcutalo88\Documents\GitHub\SpaceEngineersBackUpUtility\SpaceEngineersBackUtility\obj\Debug\SpaceEngineersBackUtility.exe.manifest
 C:\Users\mcutalo88\Documents\GitHub\SpaceEngineersBackUpUtility\SpaceEngineersBackUtility\obj\Debug\SpaceEngineersBackUtility.application
+C:\Users\zachmilo\Documents\Visual Studio 2013\Projects\SpaceEngineersBackUpUtility\SpaceEngineersBackUtility\bin\Debug\SpaceEngineersBackUtility.exe.manifest
+C:\Users\zachmilo\Documents\Visual Studio 2013\Projects\SpaceEngineersBackUpUtility\SpaceEngineersBackUtility\bin\Debug\SpaceEngineersBackUtility.application
+C:\Users\zachmilo\Documents\Visual Studio 2013\Projects\SpaceEngineersBackUpUtility\SpaceEngineersBackUtility\obj\Debug\SpaceEngineersBackUtility.BackUp.resources
+C:\Users\zachmilo\Documents\Visual Studio 2013\Projects\SpaceEngineersBackUpUtility\SpaceEngineersBackUtility\obj\Debug\SpaceEngineersBackUtility.exe.manifest
+C:\Users\zachmilo\Documents\Visual Studio 2013\Projects\SpaceEngineersBackUpUtility\SpaceEngineersBackUtility\obj\Debug\SpaceEngineersBackUtility.application

@@ -145,6 +145,7 @@
             this.customSavePath.TabIndex = 16;
             this.customSavePath.Text = "Custom Path";
             this.customSavePath.UseVisualStyleBackColor = true;
+            this.customSavePath.CheckedChanged += new System.EventHandler(this.customSavePath_CheckedChanged);
             // 
             // customSaveInput
             // 
@@ -153,6 +154,7 @@
             this.customSaveInput.Name = "customSaveInput";
             this.customSaveInput.Size = new System.Drawing.Size(100, 20);
             this.customSaveInput.TabIndex = 15;
+            this.customSaveInput.TextChanged += new System.EventHandler(this.customSaveInput_TextChanged);
             // 
             // useDefaultPath
             // 
@@ -213,6 +215,7 @@
             this.button4.TabIndex = 6;
             this.button4.Text = "Enable";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button3
             // 
@@ -223,6 +226,7 @@
             this.button3.TabIndex = 5;
             this.button3.Text = "Disable";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // groupBox1
             // 
@@ -298,6 +302,7 @@
             this.backupPath.Name = "backupPath";
             this.backupPath.Size = new System.Drawing.Size(326, 20);
             this.backupPath.TabIndex = 0;
+            this.backupPath.TextChanged += new System.EventHandler(this.backupPath_TextChanged);
             // 
             // schedule
             // 

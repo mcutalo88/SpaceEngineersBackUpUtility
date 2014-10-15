@@ -8,14 +8,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
-using System.Data.Linq; 
+ 
 
 namespace SpaceEngineersBackUtility
 {
     public partial class BackUp : Form
     {
         Transporter teleport = new Transporter();
-
+        ProgramState saveMe = new ProgramState(); 
         public BackUp()
         {
             InitializeComponent();
@@ -57,23 +57,12 @@ namespace SpaceEngineersBackUtility
                 alert.Show();                
                 alert.Text = "Please fill out Backup Path.";
             }
-
-            ////DataContext db = new DataContext("space_eng.util.db.mdf");
-
-            //SpaceEngineerLINQDataContext dc = new SpaceEngineerLINQDataContext();
-            ////var q = from a in dc.GetTable<LocalBackup>() select a.Origin; // Query Db
-
-            //Table<LocalBackup> t = dc.GetTable<LocalBackup>();
-
-            //LocalBackup back = new LocalBackup();
-            //back.Origin = "TEST INSERT";
-            //back.Destination = "TEST 12312312";
-
-            //dc.LocalBackups.InsertOnSubmit(back);
-            //dc.SubmitChanges(ConflictMode.ContinueOnConflict);
-
-            ////t.InsertOnSubmit(back);
-            ////t.Context.SubmitChanges();           
+           
+            //Takes the user input from Gui and saves to local DB 
+            saveMe.SaveInput(backupPath.Text, localBackup.Checked, dedicatedServerBackup.Checked, useDefaultPath.Checked, customSavePath.Checked, customSaveInput.Text, button4.Enabled, button3.Enabled); 
+            
+          
+         
         }
 
         private void useDefaultPath_CheckedChanged(object sender, EventArgs e)
@@ -119,6 +108,31 @@ namespace SpaceEngineersBackUtility
         }
 
         private void schedule_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void backupPath_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void customSavePath_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void customSaveInput_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
         {
 
         }

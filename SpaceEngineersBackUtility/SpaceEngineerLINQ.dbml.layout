@@ -2,10 +2,16 @@
 <ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="SpaceEngineerLINQ">
   <DataContextMoniker Name="/SpaceEngineerLINQDataContext" />
   <nestedChildShapes>
-    <classShape Id="07c7b8dc-f35c-4648-a936-a521f64b14e2" absoluteBounds="0.75, 1.125, 2, 1.1939925130208331">
+    <classShape Id="768ec1ef-6ce7-4314-b588-7131cc642f89" absoluteBounds="2.5, 1.5, 2, 1.3862939453125">
       <DataClassMoniker Name="/SpaceEngineerLINQDataContext/LocalBackup" />
       <nestedChildShapes>
-        <elementListCompartment Id="09fdc4f5-8209-4995-8e40-f4237a8a497a" absoluteBounds="0.765, 1.585, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="6cfa6994-72ae-48c2-9a7e-c71904f44905" absoluteBounds="2.5149999999999997, 1.96, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d291f44b-418e-495a-ba46-17bd8accfc4d" absoluteBounds="3.375, 3.25, 2, 1.0016910807291668">
+      <DataClassMoniker Name="/SpaceEngineerLINQDataContext/UiSaveState" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b801a64f-210b-43bb-a4f1-e6d18bdd5a8a" absoluteBounds="3.3899999999999997, 3.71, 1.9700000000000002, 0.44169108072916669" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
   </nestedChildShapes>

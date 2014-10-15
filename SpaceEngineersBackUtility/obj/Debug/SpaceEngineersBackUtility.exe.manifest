@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SpaceEngineersBackUtility.exe" size="60928">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SpaceEngineersBackUtility.exe" size="61952">
       <assemblyIdentity name="SpaceEngineersBackUtility" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>i7u+5iWngzbg+1Xf1Yc1rKqM5PkjrlM433hT8H/rk6U=</dsig:DigestValue>
+        <dsig:DigestValue>db+pPpmLQZo/0O2ZvE/i2Gg/DRgYZNRhiAOAPZ218y4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -87,7 +87,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>jRsRROup21nLEBeiwf182144UNoYyP5cUjZcNQv0k5k=</dsig:DigestValue>
+      <dsig:DigestValue>v9v6dZzoOg0gBAmr6J0Dv8kyoJSnXB+czBnOnbNdJUs=</dsig:DigestValue>
     </hash>
   </file>
   <file name="space_eng_util_db_log.ldf" size="802816" writeableType="applicationData">
@@ -96,7 +96,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>NiLKA5OiCaid3b4H+cLKVv8/YcpBRXPylN6PSZfzEPw=</dsig:DigestValue>
+      <dsig:DigestValue>s6BtKCWYFDblE0Tlo7In83ObXrYlBlcEspsr7Oke/Qc=</dsig:DigestValue>
     </hash>
   </file>
   <file name="SpaceEngineersBackUtility.exe.config" size="610">

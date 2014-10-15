@@ -1,9 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?><Database Name="space_eng_util_db" Class="SpaceEngineerLINQDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
-  <Connection Mode="AppSettings" ConnectionString="Data Source=(LocalDB)\v11.0;AttachDbFilename=|DataDirectory|\space_eng_util_db.mdf;Integrated Security=True;Connect Timeout=30;Encrypt=False" SettingsObjectName="SpaceEngineersBackUtility.Properties.Settings" SettingsPropertyName="space_eng_util_dbConnectionString" Provider="System.Data.SqlClient" />
+  <Connection Mode="AppSettings" ConnectionString="Data Source=(LocalDB)\v11.0;AttachDbFilename=|DataDirectory|\space_eng_util_db.mdf;Integrated Security=True;Connect Timeout=30" SettingsObjectName="SpaceEngineersBackUtility.Properties.Settings" SettingsPropertyName="space_eng_util_dbConnectionString1" Provider="System.Data.SqlClient" />
   <Table Name="dbo.LocalBackup" Member="LocalBackups">
     <Type Name="LocalBackup">
-      <Column Name="Origin" Type="System.String" DbType="VarChar(900) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
-      <Column Name="Destination" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Origin" Type="System.String" DbType="VarChar(900) NOT NULL" CanBeNull="false" />
+      <Column Name="Destination" Type="System.String" DbType="VarChar(900)" CanBeNull="true" />
+      <Column Name="Number" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.UiSaveState" Member="UiSaveStates">
+    <Type Name="UiSaveState">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
     </Type>
   </Table>
 </Database>
